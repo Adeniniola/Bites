@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5dc; /* cream background */
+  color: #2e4d34;      /* dark green text */
+}
+
+header {
+  background: #2e4d34; /* dark green */
+  text-align: center;
+  padding: 20px;
+  color: #f5f5dc;      /* cream text */
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #f5f5dc;      /* cream */
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.movie-card {
+  background: #fffaf0; /* lighter cream */
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+  transition: transform 0.2s ease-in-out;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(46, 77, 52, 0.3); /* greenish shadow */
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+button {
+  background: #2e4d34;  /* dark green */
+  border: none;
+  padding: 10px 15px;
+  color: #f5f5dc;       /* cream text */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #5c4033;  /* warm brown hover */
+}
+
+footer {
+  background: #2e4d34;
+  color: #f5f5dc;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}

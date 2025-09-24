@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "Spider-Man No Way Home (2021)",
+    "description": "Peter Parker faces multiverse villains.",
+    "poster": "https://via.placeholder.com/300x400.png?text=Spider-Man",
+    "fileId": "1AbCdEfGhIjKlMnOpQr"
+  },
+  {
+    "id": 2,
+    "title": "Avengers Endgame (2019)",
+    "description": "Final battle against Thanos.",
+    "poster": "https://via.placeholder.com/300x400.png?text=Avengers",
+    "fileId": "1XyZabcDEFghiJKLmNo"
+  }
+]
